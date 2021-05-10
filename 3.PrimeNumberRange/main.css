@@ -1,0 +1,43 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+form {
+    background:#eb7d34 ;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+}
+
+form > input {
+    width: 15em;
+    height: 3em;
+    margin: 1em;
+    border-radius: 10px;
+    outline: none;
+}
+
+.btn {
+    background: #ffbf94;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.btn:hover {
+    background: #a0775c;
+
+}
+
+.btn:active {
+    transform: translateY(4px);
+}
+
+div {
+    margin-top: 2em;
+    font-size: 18px;
+    font-weight: bold;
+}
